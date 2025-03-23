@@ -3,7 +3,7 @@ A list of movies that I think everyone should watch in their lifetime
 <!DOCTYPE html>
 <html lang="en">
    <head>
-       <title>Ayanna’s lietime movie list</title>
+       Ayanna’s lietime movie list
        <a href="https://www.movieboxpro.app/">Visit Example</a>
        <link rel="stylesheet" href="css/style.css">
        <meta charset="utf-8">
