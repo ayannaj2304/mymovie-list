@@ -8,7 +8,49 @@
         <meta name="author" content="Ayanna">
         <meta name ="description" content="A list of Ayanna's favorite lifetime movies.">
         <meta name="keywords" content="movies, lifetime, Ayanna">
+​<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 ​
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+​
+li:last-child {
+  border-right: none;
+}
+​
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+​
+li a:hover:not(.active) {
+  background-color: #111;
+}
+​
+.active {
+  background-color: #04AA6D;
+} 
+    </ul>
+</style>
+</head>
+<body>
+​
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
     <style> 
 #borderimg { 
   border: 10px solid transparent;
@@ -125,18 +167,7 @@ div {
                 <h2>Welcome to My Movie List!</h2>
                 <p>Here are some of my favorite movies i think everyone should watch in their lifetime atleast once. Click on the links to learn and see more about each movie.</p>
             </header>
-            <header>
-                h1{color:pink;}
-                h2{color:brown;}
-                h3{color:black;}
-                h4{color:brown;}
-                h5{color:brown;}
-
-            h1, h2, h3, h4, h5
-                {font-size: 14pt; font-family: 'arial'}
-                
-            </header>
-            </header
+        
             <section>
                 <h2>Romance Genre Movies</h2>
                 <ul>
