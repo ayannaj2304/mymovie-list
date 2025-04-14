@@ -8,24 +8,40 @@
         <meta name="author" content="Ayanna">
         <meta name ="description" content="A list of Ayanna's favorite lifetime movies.">
         <meta name="keywords" content="movies, lifetime, Ayanna">
-    </head>
-    ul {
+<style>
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+​
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+​
+li:last-child {
+  border-right: none;
+}
+​
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+​
+li a:hover:not(.active) {
+  background-color: #111;
+}
+​
+.active {
+  background-color: #04AA6D;
 }
 </style>
-</head>
-<body>
-​
-<p>In this example, we remove the bullets from the list, and its default padding and margin.</p>
-​
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">romance genre</a></li>
-  <li><a href="#contact">comedy genre</a></li>
-  <li><a href="#about">drama genre</a></li>
-</ul>
 ​
     <style> 
 #borderimg { 
@@ -33,6 +49,27 @@
   padding: 15px;
   border-image: url(border.png) 30 stretch;
 }
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+​
+li {
+  display: inline;
+}
+</style>
+</head>
+<body>
+​
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+​      
 </style>
 <style>
 div {
