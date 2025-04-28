@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -14,14 +13,12 @@ body {
     padding: 20px;
 }
 
-/* Layout Containers */
+
 .container {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
-/* Header */
 #main-header {
     background-color: #4CAF50;
     color: white;
@@ -30,7 +27,6 @@ body {
     border-bottom: 5px double #333;
 }
 
-/* Navigation */
 nav ul {
     display: flex;
     list-style: none;
@@ -48,21 +44,21 @@ nav ul li a:hover {
     background-color: #45a049;
 }
 
-/* Images */
+
 img {
     max-width: 100%;
     height: auto;
     border: 2px solid #ddd;
 }
 
-/* Main Content */
+
 section {
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 15px;
@@ -70,12 +66,10 @@ footer {
     color: white;
 }
 
-/* Example of child selector */
 section > p {
     margin-bottom: 10px;
 }
 
-/* Example pseudo-class */
 button:hover {
     background-color: #555;
     color: white;
