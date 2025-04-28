@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-    padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
 }
 .container {
     display: flex;
@@ -17,48 +16,62 @@ body {
     gap: 20px;
 }
 #main-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-bottom: 5px double #333;
+  background-color: #8e44ad;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 15px;
+#main-header nav ul {
+  list-style: none;
+  padding: 10px 0;
 }
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
+#main-header nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
-nav ul li a:hover {
-    background-color: #45a049;
+#main-header nav ul li a {
+  color: #f8e9ff;
+  text-decoration: none;
+  font-weight: bold;
 }
-img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
+#main-header nav ul li a:hover {
+  text-decoration: underline;
 }
-
-/* Main Content */
-section {
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ddd;
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+section h1, section h2 {
+  color: #6a1b9a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+ul {
+  list-style: inside square;
+  margin-bottom: 20px;
+}
+ul li {
+  margin: 8px 0;
+}
+ul li a {
+  color: #5e35b1;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #ab47bc;
+  text-decoration: underline;
 }
 footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #333;
-    color: white;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 14px;
+  background-color: #ede7f6;
+  border-radius: 10px;
 }
-section > p {
-    margin-bottom: 10px;
-}
-button:hover {
-    background-color: #555;
-    color: white;
+footer img {
+  margin-top: 10px;
 }
