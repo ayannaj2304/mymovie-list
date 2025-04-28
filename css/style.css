@@ -74,6 +74,7 @@ section > p {
 button:hover {
     background-color: #555;
     color: white;
+}
 hero-section button {
     padding: 10px 20px;
     font-size: 1rem;
@@ -84,8 +85,6 @@ hero-section button {
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* ✨ Smooth transition */
 }
-
-/* Button Hover Effect */
 .hero-section button:hover {
     transform: scale(1.05); /* Makes the button grow slightly */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft glow/shadow */
