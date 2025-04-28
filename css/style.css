@@ -36,6 +36,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
+    
     color: white;
     padding: 10px;
 }
@@ -73,4 +74,25 @@ section > p {
 button:hover {
     background-color: #555;
     color: white;
+}
+.hero-section > * {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Delay each child a little bit */
+.hero-section h2 {
+    animation-delay: 0.2s;
+}
+
+.hero-section img {
+    animation-delay: 0.4s;
+}
+
+.hero-section p {
+    animation-delay: 0.6s;
+}
+
+.hero-section button {
+    animation-delay: 0.8s;
 }
