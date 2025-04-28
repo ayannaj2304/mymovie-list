@@ -75,3 +75,36 @@ footer {
 footer img {
   margin-top: 10px;
 }
+.comment-form {
+  background-color: #ede7f6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.comment-form label {
+  font-weight: bold;
+  color: #6a1b9a;
+}
+comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.comment-form button {
+  background-color: #8e44ad;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.comment-form button:hover {
+  background-color: #6a1b9a;
+}
