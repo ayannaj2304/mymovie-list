@@ -133,3 +133,18 @@ comment-form input[type="text"],
   color: #555;
   font-size: 0.95rem;
 }
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.movie-item {
+  width: 300px;
+  text-align: center;
+}
+.movie-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #6a1b9a;
+}
